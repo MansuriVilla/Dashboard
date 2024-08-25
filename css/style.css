@@ -11,8 +11,8 @@
 #main .main-inner .main-left span.none + span { margin-left: auto; }
 #main .main-inner .main-left.menu-closed span.none + span { width: 100%; }
 #main .main-inner .main-left .menu-main .menu-toggle { width: 100%; position: absolute; bottom: 20px; }
-#main .main-inner .main-left .menu-main .menu-toggle button { width: 100%; padding: 20px 15px; text-align: left; cursor: pointer; font-family: 'League Spartan'; font-size: 24px; text-transform: uppercase; border-top: 2px solid #000; display: flex; justify-content: space-between; }
-#main .main-inner .main-left.menu-closed .menu-main .menu-inner .menu-toggle button { text-align: center; }
+#main .main-inner .main-left .menu-main .menu-toggle button { color: #000; width: 100%; padding: 20px 15px; text-align: left; cursor: pointer; font-family: 'League Spartan'; font-size: 24px; text-transform: uppercase; border-top: 2px solid #000; display: flex; justify-content: space-between; }
+#main .main-inner .main-left.menu-closed .menu-main .menu-inner .menu-toggle button { text-align: center; color: #000; }
 #main .main-inner .main-right { width: 100%; padding: 20px ; overflow-y: scroll; }
 #main .main-inner .main-right .main-right-inner { width: 100%; max-width: 1620px; margin: 0px auto; }
 #main .main-inner .main-left .menu-main { background-color: #CCCCCC; height:100% ; position: sticky; top: 0px; }
