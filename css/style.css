@@ -1,0 +1,30 @@
+#main .main-inner { display: flex; width: 100%; height: 100%; height: 100vh; /* overflow: hidden; */ }
+#main .main-inner .main-left { width: 10%; transition: all 0.3s ease; position: relative; }
+#main .main-inner .main-left.menu-closed { width: 5%; text-align: center; min-width: 60px; }
+#main .main-inner .main-left span.none { position: absolute; transition: .4s ease all; }
+#main .main-inner .main-left.menu-closed span.none { left: -200%; }
+#main .main-inner .main-left .menu-main .menu-inner { display: flex; justify-content: center; flex-wrap: wrap; padding-top: 104px; }
+#main .main-inner .main-left .menu-main .menu-inner ul { width: 100%; }
+#main .main-inner .main-left .menu-main .menu-inner ul li { background-color: transparent; margin: 20px 0px; font-family: 'League Spartan'; }
+#main .main-inner .main-left .menu-main .menu-inner ul li.active { background-color: #AEAEAE; }
+#main .main-inner .main-left .menu-main .menu-inner ul li a { color: #000; font-size: 24px; height: 100%; display: flex; padding: 20px 15px; }
+#main .main-inner .main-left span.none + span { margin-left: auto; }
+#main .main-inner .main-left.menu-closed span.none + span { width: 100%; }
+#main .main-inner .main-left .menu-main .menu-toggle { width: 100%; position: absolute; bottom: 20px; }
+#main .main-inner .main-left .menu-main .menu-toggle button { width: 100%; padding: 20px 15px; text-align: left; cursor: pointer; font-family: 'League Spartan'; font-size: 24px; text-transform: uppercase; border-top: 2px solid #000; display: flex; justify-content: space-between; }
+#main .main-inner .main-left.menu-closed .menu-main .menu-inner .menu-toggle button { text-align: center; }
+#main .main-inner .main-right { width: 100%; padding: 20px ; overflow-y: scroll; }
+#main .main-inner .main-right .main-right-inner { width: 100%; max-width: 1620px; margin: 0px auto; }
+#main .main-inner .main-left .menu-main { background-color: #CCCCCC; height:100% ; position: sticky; top: 0px; }
+.main-right .main-right-inner .header { height: 84px; width: 100%; border-radius: 20px; background: #CCC; }
+#main .main-inner .main-right .cards-container { display: none; margin-top: 20px; }
+#main .main-inner .main-right .cards-container .container-inner { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; align-items: center; }
+#main .main-inner .main-right .cards-container.active { display: block; }
+#main .main-inner .main-right .card { border-radius: 20px; overflow: hidden; flex-basis: 49%; height: 500px; background: #E8E8E8; position: relative; }
+#main .main-inner .main-right .card-inner { border-radius: 20px; }
+#main .main-inner .main-right .card .card-inner .card-top { background: #ccc; padding: 15px; }
+#main .main-inner .main-right .card .card-inner .card-top .card-top-inner .title { font-size: 28px; font-family: 'League Spartan'; }
+#main .main-inner .main-right .card .card-inner .card-top .card-top-inner p { color: #000; }
+#main .main-inner .main-right .card .card-inner .card-top .card-top-inner .subtitle { font-size: 18px; }
+#main .main-inner .main-right .card .card-inner .card-bottom { position: absolute; top: 50%; left: 50%; transform: translate(-50% ,-50%); }
+#main .main-inner .main-right .card .card-inner .card-bottom p { max-width: 277px; font-size: 24px; font-family: 'League Spartan black'; font-weight: 900; text-align: center; }

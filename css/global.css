@@ -1,0 +1,6 @@
+* { margin: 0px; padding: 0px; }
+body { scroll-behavior: smooth; font-family: 'Montserrat'; line-height: normal; }
+h1,h2,h3,h4,h5,h6 { font-family: 'League Spartan'; }
+a { text-decoration: none; }
+ul li { list-style: none; }
+button,input { border: 0px; outline: 0px; background: transparent; }
