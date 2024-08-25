@@ -42,7 +42,7 @@
  #main .main-inner .main-left.menu-closed { min-width: 40px; }
 #main .main-inner .main-left { min-width: 20%; }
 #main .main-inner .main-left .menu-main .menu-inner ul li { margin: 10px 0px; }
-#main .main-inner .main-left .menu-main .menu-toggle { bottom: 250px; }
+#main .main-inner .main-left .menu-main .menu-toggle { bottom: 140px; }
  }
 @media only screen and (max-width:520px) {
  #main .main-inner .main-right .card .card-inner .card-bottom p { font-size: 16px; line-height: 16px; }
