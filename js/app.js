@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const toggleBtn = document.getElementById('toggle-btn');
     const menu = document.getElementById('menu');
@@ -22,13 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
 
-            // Remove active class from all menu items
+
             menuItems.forEach(item => item.classList.remove('active'));
 
-            // Add active class to the clicked menu item
+
             item.classList.add('active');
 
-            // Get the target content ID from the clicked link
+
             const link = item.querySelector('a');
             if (link) {
                 const targetId = link.getAttribute('data-target');
@@ -47,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (savedContentId) {
         showContent(savedContentId);
 
-        // Set the active class to the saved active menu item
         menuItems.forEach(item => {
             const link = item.querySelector('a');
             if (link && link.getAttribute('data-target') === savedContentId) {
@@ -56,6 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     } else {
         showContent('content1');
-        menuItems[0].classList.add('active'); // Set the first menu item as active by default
+        menuItems[0].classList.add('active');
     }
 });
