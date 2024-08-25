@@ -1,0 +1,57 @@
+@media only screen and (max-width:1380px) {
+ #main .main-inner .main-left .menu-main .menu-inner ul li a, #main .main-inner .main-left .menu-main .menu-inner .menu-toggle button { font-size: 22px; }
+ }
+@media only screen and (max-width:1280px) {
+ #main .main-inner .main-left { width: 15%; }
+#main .main-inner .main-left .menu-main .menu-inner ul li a, #main .main-inner .main-left .menu-main .menu-inner .menu-toggle button { font-size: 20px; }
+#main .main-inner .main-right .card .card-inner .card-bottom p { font-size: 22px; line-height: 22px; }
+#main .main-inner .main-right .card .card-inner .card-top .card-top-inner .subtitle { font-size: 16px; }
+#main .main-inner .main-right .card .card-inner .card-top .card-top-inner .title { font-size: 26px; }
+ }
+@media only screen and (max-width:1190px) {
+ #main .main-inner .main-right .card { flex-grow: 1; flex-basis: 45%; height: 400px; }
+#main .main-inner .main-right .card .card-inner .card-bottom p { font-size: 20px; line-height: 20px; }
+ }
+@media only screen and (max-width:980px) {
+ #main .main-inner .main-right .card .card-inner .card-bottom p { font-size: 18px; line-height: 18px; }
+#main .main-inner .main-left .menu-main .menu-inner ul li a, #main .main-inner .main-left .menu-main .menu-inner .menu-toggle button { font-size: 18px; }
+.main-right .main-right-inner .header { height: 64px; border-radius: 15px; }
+#main .main-inner .main-right .card .card-inner .card-top .card-top-inner .subtitle { font-size: 14px; }
+#main .main-inner .main-right .card .card-inner .card-top .card-top-inner .title { font-size: 24px; }
+ }
+@media only screen and (max-width:890px) {
+ #main .main-inner .main-right .card { height: 390px; }
+#main .main-inner .main-right .card .card-inner .card-bottom p { font-size: 16px; line-height: 16px; }
+ }
+@media only screen and (max-width:860px) {
+ #main .main-inner .main-right .card { flex-grow: 1; flex-basis: 100%; }
+#main .main-inner .main-right .card .card-inner .card-bottom p { font-size: 18px; line-height: 18px; }
+ }
+@media only screen and (max-width:768px) {
+ #main .main-inner .main-left .menu-main .menu-inner ul li a, #main .main-inner .main-left .menu-main .menu-inner .menu-toggle button { font-size: 16px; padding: 15px 7px; }
+#main .main-inner .main-right .card .card-inner .card-top .card-top-inner .title { font-size: 22px; }
+ }
+@media only screen and (max-width:660px) {
+ #main .main-inner .main-left .menu-main .menu-inner ul li a, #main .main-inner .main-left .menu-main .menu-inner .menu-toggle button { font-size: 14px; }
+ }
+@media only screen and (orientation: landscape) and (max-width: 860px) {
+ #main .main-inner .main-left .menu-main .menu-inner { padding-top: 0; }
+#main .main-inner .main-left .menu-main .menu-toggle { bottom: 0px; }
+ }
+@media only screen and (max-width:575px) {
+ #main .main-inner .main-left.menu-closed { min-width: 40px; }
+#main .main-inner .main-left { min-width: 20%; }
+#main .main-inner .main-left .menu-main .menu-inner ul li { margin: 10px 0px; }
+#main .main-inner .main-left .menu-main .menu-toggle { bottom: 250px; }
+ }
+@media only screen and (max-width:520px) {
+ #main .main-inner .main-right .card .card-inner .card-bottom p { font-size: 16px; line-height: 16px; }
+ }
+@media only screen and (max-width:480px) {
+ #main .main-inner .main-right .card .card-inner .card-bottom p { font-size: 14px; line-height: 14px; }
+ }
+@media only screen and (max-width:420px) {
+ #main .main-inner .main-left.menu-closed { min-width: 40px; }
+#main .main-inner .main-left { min-width: 20%; }
+#main .main-inner .main-left .menu-main .menu-inner ul li a, #main .main-inner .main-left .menu-main .menu-inner .menu-toggle button { padding: 10px 7px; }
+ }
